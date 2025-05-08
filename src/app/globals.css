@@ -1,8 +1,24 @@
 body {
   margin: 0;
 }
-
 .scene-wrapper { 
   width: 100vw;
   height: 100vh;
+
+  position: relative;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(78, 255, 54, 0.6);
+}
+
+h1 {
+  color: white;
 }
